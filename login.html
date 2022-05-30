@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<style>
+		
+			ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		}
+
+		li {
+		float: right;
+		}
+
+		li a {
+		display: block;
+		padding: 8px;
+		
+		}
+		a:hover {
+  background-color: blueviolet;
+}		
+	</style>
+</head>
+<body>
+	<img src="img_girl.jpg" alt="" width="50" height="60">
+	<h1 style="text-align:center;" ><b><i>Register</i></b></h1><hr>
+	<ul>
+
+		<li><a href="#contact">Contact us</a></li>
+		<li><a href="#contact">Login</a></li>
+		<li><a href="#reg">Register</a></li>
+		<li><a href="#about">About us</a></li>
+		<li><a href="#home">Home</a></li>
+		
+	  </ul>
+	<!--<picture>
+		<img src="img3.jpg" style="float:center;width:300px;height:200px;" >
+	</picture>-->
+	<form style="text-align:center;">
+		<label for="fname">First name:</label>
+		<input type="text" id="name" name="name" title="Enter name" placeholder="Name"><br><br>
+
+		<label for="password">Email:</label>
+		<input type="text" id="email" name="email" title="Enter Email" placeholder="Email"><br><br>
+		
+		<label for="fname">Phone :</label>
+		<input type="text" id="Phone" name="Phone" title="Enter Phone" placeholder="Phone"><br><br>
+		
+		<label for="password">DOB:</label>
+		<!--<input type="text" id="dob" name="dob" title="Enter dob" placeholder="dob">--><input type="date" /><br><br>
+		
+		<label for="fname">Gender:</label>
+		<label for="fname">Male:</label>
+		<input type="radio" id="male" name="male" value="mal">
+		<label for="fname">Female:</label> 
+		<input type="radio" id="fem" name="fem" value="fem"><br><br>
+		
+		<label for="password">Address:</label>
+		<input type="text" id="add" name="add" title="Enter Address" placeholder="Address"><br><br>
+
+		<label for="fname">City:</label>
+		<select id="city" name="city">
+			<option value="vns">Varanasi</option>
+			<option value="delhi">Delhi</option>
+			<option value="luck">Lucknow</option>
+			<option value="mumbai">Mumbai</option>
+		  </select>
+		  <br><br>
+
+		<label for="password">Qualification:</label>
+		<input type="text" id="Qua" name="Qua" title="Enter Qualification" placeholder="Qualification"><br><br>
+
+		<label for="password">Technologies:</label>
+		<input type="checkbox" id="c" name="c" value="c">
+			<label for="vehicle1"> c</label>
+			<input type="checkbox" id="c++" name="c++" value="c++">
+			<label for="vehicle2"> c++</label>
+			<input type="checkbox" id="java" name="java" value="java">
+			<label for="vehicle3"> Java</label>
+			<input type="checkbox" id="python" name="python" value="python">
+			<label for="vehicle3"> Python</label>
+		
+		<br><br>
+		<input type="button" value="Register">
+		<input type="button" value="Clean up">
+	</form>	
+</body>
+</html>
